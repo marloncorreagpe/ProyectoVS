@@ -6,5 +6,25 @@ namespace proyecto1
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int numero1 = 11;
+            int numero2 = 5;
+            int Total = numero1 + numero2;
+
+            textBox1.Text = Total.ToString();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            int numero1 = 11;
+            int numero2 = 5;
+            int Total = numero1 - numero2;
+
+            textBox2.Text = Total.ToString();   
+
+
+        }
     }
 }
